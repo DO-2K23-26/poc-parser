@@ -1,0 +1,13 @@
+actions:
+  postinstall1:
+    configuration:
+      container: debian:latest
+    commands:
+      - apt update
+      - apt install mfa-postinstall1
+  postinstall2:
+    configuration:
+      container: debian:latest
+    commands:
+      - apt update
+      - apt install mfa-postinstall2
